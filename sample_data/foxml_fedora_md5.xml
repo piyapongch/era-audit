@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="969.57.6 ventral" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="era-administrator" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2013-10-09T23:30:56.708Z" />
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2015-08-06T22:52:17.608Z" />
+    <foxml:extproperty NAME="http://era.library.ualberta.ca/schema/definitions.xsd#version" VALUE="1.3.13" />
+    <foxml:extproperty NAME="http://era.library.ualberta.ca/schema/definitions.xsd#developerId" VALUE="piyapong.charoenwattana@ualberta.ca" />
+  </foxml:objectProperties>
+  <foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+    <foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2013-10-09T23:30:56.708Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M" />
+            <audit:action>ingest</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2013-10-09T23:30:56.708Z</audit:date>
+            <audit:justification>Ingest Objects</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>DS1</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2014-04-24T19:09:09.018Z</audit:date>
+            <audit:justification>Add checksum to datastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>THUMBNAIL</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2014-04-24T19:09:11.269Z</audit:date>
+            <audit:justification>Add checksum to datastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M" />
+            <audit:action>purgeDatastream</audit:action>
+            <audit:componentID>DS1</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2014-04-29T15:41:24.145Z</audit:date>
+            <audit:justification>Purged datastream (ID=DS1), versions ranging from 2013-10-09T17:30:56.811Z to 2013-10-09T17:30:56.811Z.  This resulted in the permanent removal of 1 datastream version(s) (2013-10-09T17:30:56.811Z) and all associated audit records.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M" />
+            <audit:action>purgeDatastream</audit:action>
+            <audit:componentID>THUMBNAIL</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2014-04-29T15:41:25.318Z</audit:date>
+            <audit:justification>Purged datastream (ID=THUMBNAIL), versions ranging from 2013-10-09T17:30:56.811Z to 2013-10-09T17:30:56.811Z.  This resulted in the permanent removal of 1 datastream version(s) (2013-10-09T17:30:56.811Z) and all associated audit records.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2014-10-09T16:03:09.126Z</audit:date>
+            <audit:justification></audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2015-08-06T20:54:53.732Z</audit:date>
+            <audit:justification>Fix double-nested DCQ datastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC8">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2015-08-06T22:52:17.608Z</audit:date>
+            <audit:justification>Fix double-nested DCQ datastream</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DCQ" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DCQ.0" LABEL="Dublin Core Record for this object" CREATED="2013-10-09T23:30:56.810Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="1232">
+      <foxml:xmlContent>
+        <dc xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dcterms:identifier>1969-057-006_v_.tif</dcterms:identifier>
+          <dcterms:spatial>Eastern and Southern Amazon</dcterms:spatial>
+          <dcterms:spatial>Brazil, Paraná</dcterms:spatial>
+          <dc:contributor>Bryan, Alan L., Dr.</dc:contributor>
+          <dc:contributor>Gruhn, Dr. Ruth</dc:contributor>
+          <dc:title>969.57.6 ventral</dc:title>
+          <dc:creator>UofA Anthro</dc:creator>
+          <dc:subject>lithic tools</dc:subject>
+          <dc:subject>hammerstone</dc:subject>
+          <dc:description>1 original</dc:description>
+          <dc:type>Research Material</dc:type>
+          <dc:language>zxx</dc:language>
+          <dc:format>image/tif</dc:format>
+          <dc:rights>© University of Alberta, Department of Anthropology</dc:rights>
+          <dc:source>Bryan/Gruhn Archaeology Collection, Department of Anthropology, University of Alberta</dc:source>
+          <dc:identifier>http://hdl.handle.net/10402/era.36497</dc:identifier>
+          <dc:identifier>uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</dc:identifier>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.1" LABEL="Dublin Core Record for this object" CREATED="2014-10-09T16:03:09.126Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="1573">
+      <foxml:xmlContent>
+        <foxml:datastream xmlns:foxml="info:fedora/fedora-system:def/foxml#" CONTROL_GROUP="X" ID="DCQ" STATE="A" VERSIONABLE="true">
+          <foxml:datastreamVersion CREATED="2013-10-09T23:30:56.810Z" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" ID="DCQ.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" SIZE="1232">
+            <foxml:xmlContent>
+              <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+                <dcterms:identifier>1969-057-006_v_.tif</dcterms:identifier>
+                <dcterms:spatial>Eastern and Southern Amazon</dcterms:spatial>
+                <dcterms:spatial>Brazil, Paraná</dcterms:spatial>
+                <dc:contributor>Bryan, Alan L., Dr.</dc:contributor>
+                <dc:contributor>Gruhn, Dr. Ruth</dc:contributor>
+                <dc:title>969.57.6 ventral</dc:title>
+                <dc:creator>UofA Anthro</dc:creator>
+                <dc:subject>lithic tools</dc:subject>
+                <dc:subject>hammerstone</dc:subject>
+                <dc:description>1 original</dc:description>
+                <dc:type>Research Material</dc:type>
+                <dc:language>zxx</dc:language>
+                <dc:format>image/tif</dc:format>
+                <dc:rights>© University of Alberta, Department of Anthropology</dc:rights>
+                <dc:source>Bryan/Gruhn Archaeology Collection, Department of Anthropology, University of Alberta</dc:source>
+                <dc:identifier>http://hdl.handle.net/10402/era.36497</dc:identifier>
+                <dc:identifier>uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</dc:identifier>
+              </dc>
+            </foxml:xmlContent>
+          </foxml:datastreamVersion>
+        </foxml:datastream>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.2" LABEL="Dublin Core Record for this object" CREATED="2015-08-06T20:54:53.732Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="1082">
+      <foxml:contentDigest TYPE="MD5" DIGEST="e6cf41882bad368c494bf6bed28d7c56" />
+      <foxml:xmlContent>
+        <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foxml="info:fedora/fedora-system:def/foxml#">
+          <dcterms:identifier>1969-057-006_v_.tif</dcterms:identifier>
+          <dcterms:spatial>Eastern and Southern Amazon</dcterms:spatial>
+          <dcterms:spatial>Brazil, Paraná</dcterms:spatial>
+          <dc:contributor>Bryan, Alan L., Dr.</dc:contributor>
+          <dc:contributor>Gruhn, Dr. Ruth</dc:contributor>
+          <dc:title>969.57.6 ventral</dc:title>
+          <dc:creator>UofA Anthro</dc:creator>
+          <dc:subject>lithic tools</dc:subject>
+          <dc:subject>hammerstone</dc:subject>
+          <dc:description>1 original</dc:description>
+          <dc:type>Research Material</dc:type>
+          <dc:language>zxx</dc:language>
+          <dc:format>image/tif</dc:format>
+          <dc:rights>© University of Alberta, Department of Anthropology</dc:rights>
+          <dc:source>Bryan/Gruhn Archaeology Collection, Department of Anthropology, University of Alberta</dc:source>
+          <dc:identifier>http://hdl.handle.net/10402/era.36497</dc:identifier>
+          <dc:identifier>uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</dc:identifier>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.3" LABEL="Dublin Core Record for this object" CREATED="2015-08-06T22:52:17.608Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/">
+      <foxml:contentDigest TYPE="MD5" DIGEST="4e56748850e6a4e406726732e2059d4c" />
+      <foxml:xmlContent>
+        <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <dcterms:identifier>1969-057-006_v_.tif</dcterms:identifier>
+          <dcterms:spatial>Eastern and Southern Amazon</dcterms:spatial>
+          <dcterms:spatial>Brazil, Paraná</dcterms:spatial>
+          <dc:contributor>Bryan, Alan L., Dr.</dc:contributor>
+          <dc:contributor>Gruhn, Dr. Ruth</dc:contributor>
+          <dc:title>969.57.6 ventral</dc:title>
+          <dc:creator>UofA Anthro</dc:creator>
+          <dc:subject>lithic tools</dc:subject>
+          <dc:subject>hammerstone</dc:subject>
+          <dc:description>1 original</dc:description>
+          <dc:type>Research Material</dc:type>
+          <dc:language>zxx</dc:language>
+          <dc:format>image/tif</dc:format>
+          <dc:rights>© University of Alberta, Department of Anthropology</dc:rights>
+          <dc:source>Bryan/Gruhn Archaeology Collection, Department of Anthropology, University of Alberta</dc:source>
+          <dc:identifier>http://hdl.handle.net/10402/era.36497</dc:identifier>
+          <dc:identifier>uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</dc:identifier>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DS1.1" LABEL="1969-057-006_v_.tif" CREATED="2014-04-24T19:09:09.018Z" MIMETYPE="image/tif">
+      <foxml:contentDigest TYPE="MD5" DIGEST="2f3bee0a4a4b2be445313eee66480655" />
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b+DS1+DS1.1" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Item Relationships" CREATED="2013-10-09T23:30:56.811Z" MIMETYPE="text/xml" SIZE="910">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rel="info:fedora/fedora-system:def/relations-external#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:ResearchMaterial"></hasModel>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ade16130-2357-42f0-8b0f-e1225e5e63a1"></isMemberOfCollection>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:214a9997-c93c-4526-ae61-9755a63a5724"></isMemberOf>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</itemID>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="THUMBNAIL" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="THUMBNAIL.1" LABEL="1969-057-006_v_.gif" CREATED="2014-04-24T19:09:11.269Z" MIMETYPE="image/gif">
+      <foxml:contentDigest TYPE="MD5" DIGEST="e543952bf711fa1ad99bcbd0261a6462" />
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b+THUMBNAIL+THUMBNAIL.1" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="LICENSE.0" LABEL="© University of Alberta, Department of Anthropology" CREATED="2013-10-09T23:30:56.811Z" MIMETYPE="text/plain" SIZE="77">
+      <foxml:xmlContent>
+        <copyright>© University of Alberta, Department of Anthropology</copyright>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2013-10-09T23:30:56.708Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="410">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>969.57.6 ventral</dc:title>
+          <dc:identifier>uuid:1a4ad7a9-80d4-4c1a-a41e-36291a568d9b</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:aa9879e2-899a-44af-8866-56ed447ece29" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Shear modulus of solid 4He confined in aerogel" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="era-administrator" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-03-13T16:37:03.593Z" />
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2012-09-10T20:59:03.851Z" />
+  </foxml:objectProperties>
+  <foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+    <foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-03-13T16:37:03.593Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M" />
+            <audit:action>ingest</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-13T16:37:03.593Z</audit:date>
+            <audit:justification>Ingest Objects</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-14T19:27:18.173Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M" />
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>THUMBNAIL</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-20T17:25:28.320Z</audit:date>
+            <audit:justification>BatchModify - addDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-04-04T19:08:13.427Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-05-09T19:03:48.726Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyObject</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-09-10T20:58:59.529Z</audit:date>
+            <audit:justification>ERA: Action[/action/submit] Username[admin] WorkflowState[Archive] - Archive</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-09-10T20:59:00.300Z</audit:date>
+            <audit:justification>ERA: Action[/action/submit] Username[admin] WorkflowState[Archive] - Archive</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC8">
+            <audit:process type="Fedora API-M" />
+            <audit:action>purgeDatastream</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-09-10T20:59:01.627Z</audit:date>
+            <audit:justification>ERA: Action[/action/submit] Username[admin] WorkflowState[Archive] - Archive . . . Purged datastream (ID=LICENSE), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 3 datastream version(s) (2012-03-13T10:37:03.682Z, 2012-03-14T13:27:18.173Z, 2012-04-04T13:08:13.427Z) and all associated audit records.</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC9">
+            <audit:process type="Fedora API-M" />
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-09-10T20:59:01.911Z</audit:date>
+            <audit:justification>ERA: Action[/action/submit] Username[admin] WorkflowState[Archive] - Archive</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DCQ" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:37:03.681Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="3753">
+      <foxml:xmlContent>
+        <dc xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+          <thesis:contributor role="advisor">Beamish, John (Physics)</thesis:contributor>
+          <dc:creator>Rabbani, Arif</dc:creator>
+          <thesis:contributor role="committeemember">Freeman, Mark (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Schmitt, Doug (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Adeeb, Samer (Civil and Environmental Engineering)</thesis:contributor>
+          <dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2011-01-31T16:58:36Z</dcterms:dateaccepted>
+          <eraterms:graduationdate>2011-06</eraterms:graduationdate>
+          <dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/1791</dcterms:identifier>
+          <dcterms:abstract>Torsional oscillator experiments on solid 4He show supersolid behavior which appears to be associated with disorder.  However, confining helium in the pores of an aerogel does not enhance the supersolid decoupling, even though x-ray measurements confirm that the crystals are highly disordered.  Solid helium’s shear modulus also shows anomalous behavior below 150 mK, stiffening as mobile dislocations are pinned by 3He impurities at low temperatures. A highly porous material should also provide effective pinning sites for dislocations.  We have made shear modulus measurements on solid 4He grown in a 95% porosity aerogel. We see large modulus decreases as the samples are warmed but at much higher temperatures and over a broader range than in bulk 4He.  The frequency dependence of the modulus and dissipation are consistent with a thermally activated process. The activation energies are roughly 10 to 15 K and may be associated with vacancy motion.</dcterms:abstract>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">Submitted by Arif Rabbani (rabbani@ualberta.ca) on 2011-01-31T03:30:52Z
+No. of bitstreams: 1
+Rabbani_Arif_Spring 2011.pdf: 24702575 bytes, checksum: ce61fe124efc598b11892d62e7265d87 (MD5)</dcterms:datesubmitted>
+          <dcterms:provenance>Approved for entry into archive by Deanna Baron(deanna.baron@ualberta.ca) on 2011-01-31T16:58:34Z (GMT) No. of bitstreams: 1
+Rabbani_Arif_Spring 2011.pdf: 24702575 bytes, checksum: ce61fe124efc598b11892d62e7265d87 (MD5)</dcterms:provenance>
+          <dcterms:provenance>Made available in DSpace on 2011-01-31T16:58:36Z (GMT). No. of bitstreams: 1
+Rabbani_Arif_Spring 2011.pdf: 24702575 bytes, checksum: ce61fe124efc598b11892d62e7265d87 (MD5)</dcterms:provenance>
+          <dcterms:extent>24702575 bytes</dcterms:extent>
+          <dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+          <dc:language xsi:type="dcterms:ISO639-3">en_US</dc:language>
+          <dc:title>Shear modulus of solid 4He confined in aerogel</dc:title>
+          <dc:type>Thesis</dc:type>
+          <thesis:degree>
+            <thesis:name>Master in Science</thesis:name>
+            <thesis:level>Master&apos;s</thesis:level>
+            <thesis:discipline>Department of Physics</thesis:discipline>
+            <thesis:grantor>University of Alberta</thesis:grantor>
+          </thesis:degree>
+          <dcterms:identifier xsi:type="eraterms:local">uuid:aa9879e2-899a-44af-8866-56ed447ece29</dcterms:identifier>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.1" LABEL="Dublin Core Record for this object" CREATED="2012-05-09T19:03:48.726Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="2796">
+      <foxml:xmlContent>
+        <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+          <dcterms:identifier xsi:type="eraterms:local">uuid:aa9879e2-899a-44af-8866-56ed447ece29</dcterms:identifier>
+          <thesis:contributor role="advisor">Beamish, John (Physics)</thesis:contributor>
+          <dc:creator>Rabbani, Arif</dc:creator>
+          <thesis:contributor role="committeemember">Freeman, Mark (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Schmitt, Doug (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Adeeb, Samer (Civil and Environmental Engineering)</thesis:contributor>
+          <dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2011-01-31T16:58:36Z</dcterms:dateaccepted>
+          <eraterms:graduationdate>2011-06</eraterms:graduationdate>
+          <dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/1791</dcterms:identifier>
+          <dcterms:abstract>Torsional oscillator experiments on solid 4He show supersolid behavior which appears to be associated with disorder.  However, confining helium in the pores of an aerogel does not enhance the supersolid decoupling, even though x-ray measurements confirm that the crystals are highly disordered.  Solid helium’s shear modulus also shows anomalous behavior below 150 mK, stiffening as mobile dislocations are pinned by 3He impurities at low temperatures. A highly porous material should also provide effective pinning sites for dislocations.  We have made shear modulus measurements on solid 4He grown in a 95% porosity aerogel. We see large modulus decreases as the samples are warmed but at much higher temperatures and over a broader range than in bulk 4He.  The frequency dependence of the modulus and dissipation are consistent with a thermally activated process. The activation energies are roughly 10 to 15 K and may be associated with vacancy motion.</dcterms:abstract>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2011-01-31T03:30:52Z</dcterms:datesubmitted>
+          <dcterms:extent>24702575 bytes</dcterms:extent>
+          <dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+          <dc:language xsi:type="dcterms:ISO639-3">en_US</dc:language>
+          <dc:title>Shear modulus of solid 4He confined in aerogel</dc:title>
+          <dc:type>Thesis</dc:type>
+          <thesis:degree>
+            <thesis:name>Master in Science</thesis:name>
+            <thesis:level>Master&apos;s</thesis:level>
+            <thesis:discipline>Department of Physics</thesis:discipline>
+            <thesis:grantor>University of Alberta</thesis:grantor>
+          </thesis:degree>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.2" LABEL="Item Metadata" CREATED="2012-09-10T20:59:00.300Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="3091">
+      <foxml:xmlContent>
+        <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+          <dc:creator>Rabbani, Arif</dc:creator>
+          <dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+          <dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+          <dc:subject>Solid helium</dc:subject>
+          <dc:subject>Solid helium -- Density -- Measurement</dc:subject>
+          <dc:subject>Aerogels</dc:subject>
+          <dc:subject>Order-disorder models</dc:subject>
+          <dc:subject>Superfluidity</dc:subject>
+          <dc:title>Shear modulus of solid 4He confined in aerogel</dc:title>
+          <dc:type>Thesis</dc:type>
+          <dcterms:abstract>Torsional oscillator experiments on solid 4He show supersolid behavior which appears to be associated with disorder.  However, confining helium in the pores of an aerogel does not enhance the supersolid decoupling, even though x-ray measurements confirm that the crystals are highly disordered.  Solid helium’s shear modulus also shows anomalous behavior below 150 mK, stiffening as mobile dislocations are pinned by 3He impurities at low temperatures. A highly porous material should also provide effective pinning sites for dislocations.  We have made shear modulus measurements on solid 4He grown in a 95% porosity aerogel. We see large modulus decreases as the samples are warmed but at much higher temperatures and over a broader range than in bulk 4He.  The frequency dependence of the modulus and dissipation are consistent with a thermally activated process. The activation energies are roughly 10 to 15 K and may be associated with vacancy motion.</dcterms:abstract>
+          <dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2011-01-31T16:58:36Z</dcterms:dateaccepted>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2011-01-31T03:30:52Z</dcterms:datesubmitted>
+          <dcterms:extent>24702575 bytes</dcterms:extent>
+          <dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10402/era.28715</dcterms:identifier>
+          <dcterms:identifier xsi:type="eraterms:local">uuid:aa9879e2-899a-44af-8866-56ed447ece29</dcterms:identifier>
+          <eraterms:graduationdate>2011-06</eraterms:graduationdate>
+          <thesis:contributor role="advisor">Beamish, John (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Freeman, Mark (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Schmitt, Doug (Physics)</thesis:contributor>
+          <thesis:contributor role="committeemember">Adeeb, Samer (Civil and Environmental Engineering)</thesis:contributor>
+          <thesis:degree>
+            <thesis:discipline>Department of Physics</thesis:discipline>
+            <thesis:grantor>University of Alberta</thesis:grantor>
+            <thesis:level>Master&apos;s</thesis:level>
+            <thesis:name>Master of Science</thesis:name>
+          </thesis:degree>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DS1.0" LABEL="Rabbani_Arif_Spring 2011.pdf" CREATED="2012-03-13T16:37:03.682Z" MIMETYPE="application/pdf">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:aa9879e2-899a-44af-8866-56ed447ece29+DS1+DS1.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Item Relationships" CREATED="2012-03-13T16:37:03.683Z" MIMETYPE="text/xml" SIZE="1301">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rel="info:fedora/fedora-system:def/relations-external#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.1" LABEL="Item Relationships" CREATED="2012-09-10T20:59:00.570Z" MIMETYPE="text/xml" SIZE="964">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.2" LABEL="Item Relationships" CREATED="2012-09-10T20:59:00.850Z" MIMETYPE="text/xml" SIZE="790">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.3" LABEL="Item Relationships" CREATED="2012-09-10T20:59:01.130Z" MIMETYPE="text/xml" SIZE="944">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.4" LABEL="Item Relationships" CREATED="2012-09-10T20:59:01.410Z" MIMETYPE="text/xml" SIZE="1118">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.5" LABEL="Item Relationships" CREATED="2012-09-10T20:59:02.481Z" MIMETYPE="text/xml" SIZE="1245">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.6" LABEL="Item Relationships" CREATED="2012-09-10T20:59:02.813Z" MIMETYPE="text/xml" SIZE="1342">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+            <submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.7" LABEL="Item Relationships" CREATED="2012-09-10T20:59:03.070Z" MIMETYPE="text/xml" SIZE="1239">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:37:3.169Z</workflowDate>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+            <submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.8" LABEL="Item Relationships" CREATED="2012-09-10T20:59:03.340Z" MIMETYPE="text/xml" SIZE="1065">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+            <submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.9" LABEL="Item Relationships" CREATED="2012-09-10T20:59:03.630Z" MIMETYPE="text/xml" SIZE="1240">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+            <submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:58:59.396Z</workflowDate>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="RELS-EXT.10" LABEL="Item Relationships" CREATED="2012-09-10T20:59:03.940Z" MIMETYPE="text/xml" SIZE="1288">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:aa9879e2-899a-44af-8866-56ed447ece29">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis" />
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:aa9879e2-899a-44af-8866-56ed447ece29</itemID>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc" />
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269" />
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL" />
+            <submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-09-10T20:58:59.396Z</workflowDate>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:37:03.593Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="440">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Shear modulus of solid 4He confined in aerogel</dc:title>
+          <dc:identifier>uuid:aa9879e2-899a-44af-8866-56ed447ece29</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="THUMBNAIL" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="THUMBNAIL.0" LABEL="Item Thumbnail" CREATED="2012-03-20T17:25:28.320Z" MIMETYPE="image/gif">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:aa9879e2-899a-44af-8866-56ed447ece29+THUMBNAIL+THUMBNAIL.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="LICENSE.0" LABEL="University of Alberta Libraries" CREATED="2012-09-10T20:59:01.911Z" MIMETYPE="text/plain">
+      <foxml:contentLocation TYPE="URL" REF="http://local.fedora.server/fedora/get/era-license:UALibraries/LICENSE" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

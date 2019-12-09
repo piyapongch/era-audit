@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Deleted" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Joint Protection in Osteoarthritis of the Hand: A Critical Review" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="Jessica" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2011-08-05T15:33:37.744Z" />
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2012-10-15T19:18:06.956Z" />
+  </foxml:objectProperties>
+  <foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+    <foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2011-08-05T15:33:37.744Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M" />
+            <audit:action>ingest</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-05T15:33:37.744Z</audit:date>
+            <audit:justification>[/action/deposit/submit] Jessica Submit  - </audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M" />
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-05T15:33:41.967Z</audit:date>
+            <audit:justification>Modified by Jessica</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M" />
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>DS1</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-05T15:33:43.186Z</audit:date>
+            <audit:justification>[/action/deposit/submit] Jessica Submit  - </audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DC</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-05T15:33:43.988Z</audit:date>
+            <audit:justification>[/action/deposit/submit] Jessica Submit  - </audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyObject</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-09T19:35:28.402Z</audit:date>
+            <audit:justification>Modified by admin</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC6">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DC</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2011-08-09T19:35:29.210Z</audit:date>
+            <audit:justification>Modified by admin</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC7">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyObject</audit:action>
+            <audit:componentID></audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-10-15T19:18:06.715Z</audit:date>
+            <audit:justification>ERA: Action[/action/item] Username[admin] WorkflowState[Archive] - Modify object state to Delete.</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2011-08-05T15:33:37.744Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="459">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Joint Protection in Osteoarthritis of the Hand: A Critical Review</dc:title>
+          <dc:identifier>uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DC.1" LABEL="Joint Protection in Osteoarthritis of the Hand: A Critical Review" CREATED="2011-08-05T15:33:43.988Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="2456">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:identifier>http://hdl.handle.net/10402/era.23738</dc:identifier>
+          <dc:title>Joint Protection in Osteoarthritis of the Hand: A Critical Review</dc:title>
+          <dc:creator>Sarah Leszczynski</dc:creator>
+          <dc:subject>Osteoarthritis</dc:subject>
+          <dc:subject>Joint Protection</dc:subject>
+          <dc:subject>Hand Function</dc:subject>
+          <dc:subject>Occupational Therapist</dc:subject>
+          <dc:subject>Therapy</dc:subject>
+          <dc:description>Abstract
+
+Background: With an aging population, an increase in the prevalence of chronic conditions, such as arthritis, is expected. As such, occupational therapists are becoming more involved in providing non-pharmacologic treatment options aimed at improving or maintaining quality of life, to individuals diagnosed with osteoarthritis of the hand. Joint protection is one non-pharmacologic intervention utilized by therapists in client treatment plans. The main goal of joint protection aims to decrease pain and increase function in individuals diagnosed with osteoarthritis of the hand. Purpose: To determine the current level of evidence supporting the use of joint protection in osteoarthritis of the hand in increasing hand function. Methods: A critical review of the literature using the McMaster protocols for quantitative studies and the FAME scale was conducted in order to evaluate the current level of evidence supporting the intervention. Findings: Three studies matching set inclusion and exclusion criteria were reviewed. The level of evidence ranged from weak to moderate. Based on the results, a definitive conclusion regarding the efficacy and use of the intervention in occupational therapy was not clearly defined. Implications: Further, more specific and in depth research is required to determine if joint protection is a worthwhile intervention for occupational therapists to incorporate within treatment plans when looking to increase function for individuals diagnosed with osteoarthritis of the hand.
+
+
+
+Keywords: osteoarthritis; joint protection; hand function; occupational therapist; therapy.</dc:description>
+          <dc:contributor>Rashid Kashani</dc:contributor>
+          <dc:date>2011/05/16</dc:date>
+          <dc:type>Research Material</dc:type>
+          <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+          <dc:language>eng</dc:language>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DC.2" LABEL="Joint Protection in Osteoarthritis of the Hand: A Critical Review" CREATED="2011-08-09T19:35:29.210Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="2457">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:identifier>http://hdl.handle.net/10402/era.23738</dc:identifier>
+          <dc:title>Joint Protection in Osteoarthritis of the Hand: A Critical Review</dc:title>
+          <dc:creator>Sarah Leszczynski</dc:creator>
+          <dc:subject>Osteoarthritis</dc:subject>
+          <dc:subject>Joint Protection</dc:subject>
+          <dc:subject>Hand Function</dc:subject>
+          <dc:subject>Occupational therapists</dc:subject>
+          <dc:subject>Therapy</dc:subject>
+          <dc:description>Abstract
+
+Background: With an aging population, an increase in the prevalence of chronic conditions, such as arthritis, is expected. As such, occupational therapists are becoming more involved in providing non-pharmacologic treatment options aimed at improving or maintaining quality of life, to individuals diagnosed with osteoarthritis of the hand. Joint protection is one non-pharmacologic intervention utilized by therapists in client treatment plans. The main goal of joint protection aims to decrease pain and increase function in individuals diagnosed with osteoarthritis of the hand. Purpose: To determine the current level of evidence supporting the use of joint protection in osteoarthritis of the hand in increasing hand function. Methods: A critical review of the literature using the McMaster protocols for quantitative studies and the FAME scale was conducted in order to evaluate the current level of evidence supporting the intervention. Findings: Three studies matching set inclusion and exclusion criteria were reviewed. The level of evidence ranged from weak to moderate. Based on the results, a definitive conclusion regarding the efficacy and use of the intervention in occupational therapy was not clearly defined. Implications: Further, more specific and in depth research is required to determine if joint protection is a worthwhile intervention for occupational therapists to incorporate within treatment plans when looking to increase function for individuals diagnosed with osteoarthritis of the hand.
+
+
+
+Keywords: osteoarthritis; joint protection; hand function; occupational therapist; therapy.</dc:description>
+          <dc:contributor>Rashid Kashani</dc:contributor>
+          <dc:date>2011/05/16</dc:date>
+          <dc:type>Research Material</dc:type>
+          <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+          <dc:language>eng</dc:language>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="LICENSE.0" LABEL="Creative Commons Attribution-Non-Commercial-No Derivatives 3.0 Unported" CREATED="2011-08-05T15:33:41.967Z" MIMETYPE="text/plain">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be+LICENSE+LICENSE.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DS1.0" LABEL="OCCTH 900-Sarah Leszczynski.docx" CREATED="2011-08-05T15:33:43.186Z" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be+DS1+DS1.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+    <foxml:datastreamVersion ID="RELS-EXT.15" LABEL="Relationships" CREATED="2012-10-15T19:18:07.071Z" MIMETYPE="text/xml" SIZE="1374">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+          <rdf:Description rdf:about="info:fedora/uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:ResearchMaterial" />
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:db35dd91-4d77-4d4c-aadf-2ecc884e52be</itemID>
+            <workflowState xmlns="http://era.library.ualbertaca/schema/definitions.xsd#">Archive</workflowState>
+            <workflowDate xmlns="http://era.library.ualbertaca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-05T15:33:47.489Z</workflowDate>
+            <userId xmlns="http://era.library.ualbertaca/schema/definitions.xsd#">Jessica</userId>
+            <submitterId xmlns="http://era.library.ualbertaca/schema/definitions.xsd#">Jessica</submitterId>
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:b13c373c-ea65-456d-8b53-07bc741a91ea" />
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:919c9937-31b1-4e1b-8ee3-49fa10c65a2e" />
+            <isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:CCID_AUTH" />
+            <userId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</userId>
+          </rdf:Description>
+
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

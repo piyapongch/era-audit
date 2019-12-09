@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:0001add1-2506-4ae4-bd58-a8862310680a" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+	<foxml:objectProperties>
+		<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Deleted" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Edmonton LIFE: local indicators for excellence" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="admin" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-05-10T21:35:10.197Z" />
+		<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2015-07-22T19:10:19.717Z" />
+		<foxml:extproperty NAME="http://era.library.ualberta.ca/schema/definitions.xsd#version" VALUE="1.3.4" />
+		<foxml:extproperty NAME="http://era.library.ualberta.ca/schema/definitions.xsd#developerId" VALUE="piyapong.charoenwattana@ualberta.ca" />
+	</foxml:objectProperties>
+	<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+		<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-05-10T21:35:10.197Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+			<foxml:xmlContent>
+				<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+					<audit:record ID="AUDREC1">
+						<audit:process type="Fedora API-M" />
+						<audit:action>ingest</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-10T21:35:10.197Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Submit - Submit</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC2">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>RELS-EXT</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-10T21:35:10.635Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Submit - Submit</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC3">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-10T21:35:12.489Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Submit - Submit</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC4">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>DCQ</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-10T21:35:12.948Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Submit - Submit</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC5">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-10T21:35:13.752Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Submit - Submit</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC6">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyObject</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-11T21:03:09.275Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC7">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByValue</audit:action>
+						<audit:componentID>DCQ</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-11T21:03:09.578Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC8">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByValue</audit:action>
+						<audit:componentID>RELS-EXT</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-09-06T17:17:17.188Z</audit:date>
+						<audit:justification>BatchModify - modifyDatastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC9">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-15T21:03:41.579Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC10">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-15T21:12:27.871Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC11">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:13:03.587Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC12">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:13:04.760Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC13">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:25:41.379Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC14">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:25:41.960Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC15">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:36:56.327Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC16">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:36:56.850Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC17">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:44:03.454Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC18">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T19:44:03.937Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC19">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:15:06.002Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC20">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:15:06.582Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC21">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:24:12.613Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC22">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:24:13.294Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC23">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:27:02.047Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC24">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:27:02.573Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC25">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:31:49.328Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC26">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:31:49.813Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC27">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:32:59.507Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC28">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:33:20.176Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC29">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-23T20:33:20.659Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC30">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-24T18:09:29.113Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC31">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-04-24T18:09:30.476Z</audit:date>
+						<audit:justification>Add checksum to datastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC32">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:28.926Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:33:20.176Z to 2014-04-23T14:33:20.176Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:33:20.176Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC33">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:29.699Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:32:59.507Z to 2014-04-23T14:32:59.507Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:32:59.507Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC34">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:30.451Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:31:49.328Z to 2014-04-23T14:31:49.328Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:31:49.328Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC35">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:31.178Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:27:02.047Z to 2014-04-23T14:27:02.047Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:27:02.047Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC36">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:32.049Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:24:12.613Z to 2014-04-23T14:24:12.613Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:24:12.613Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC37">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:32.753Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T14:15:06.002Z to 2014-04-23T14:15:06.002Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:15:06.002Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC38">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:33.488Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T13:44:03.454Z to 2014-04-23T13:44:03.454Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:44:03.454Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC39">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:34.277Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T13:36:56.327Z to 2014-04-23T13:36:56.327Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:36:56.327Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC40">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:35.081Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T13:25:41.379Z to 2014-04-23T13:25:41.379Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:25:41.379Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC41">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>DS1</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:36.051Z</audit:date>
+						<audit:justification>Purged datastream (ID=DS1), versions ranging from 2014-04-23T13:13:03.587Z to 2014-04-23T13:13:03.587Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:13:03.587Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC42">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:38.604Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T14:33:20.659Z to 2014-04-23T14:33:20.659Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:33:20.659Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC43">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:39.392Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T14:31:49.813Z to 2014-04-23T14:31:49.813Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:31:49.813Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC44">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:40.149Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T14:27:02.573Z to 2014-04-23T14:27:02.573Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:27:02.573Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC45">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:40.920Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T14:24:13.294Z to 2014-04-23T14:24:13.294Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:24:13.294Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC46">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:42.000Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T14:15:06.582Z to 2014-04-23T14:15:06.582Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T14:15:06.582Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC47">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:42.742Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T13:44:03.937Z to 2014-04-23T13:44:03.937Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:44:03.937Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC48">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:43.607Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T13:36:56.850Z to 2014-04-23T13:36:56.850Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:36:56.850Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC49">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2014-05-01T17:20:44.463Z</audit:date>
+						<audit:justification>Purged datastream (ID=LICENSE), versions ranging from 2014-04-23T13:25:41.960Z to 2014-04-23T13:25:41.960Z.  This resulted in the permanent removal of 1 datastream version(s) (2014-04-23T13:25:41.960Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC50">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyObject</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2015-07-22T19:10:19.364Z</audit:date>
+						<audit:justification>ERA: Action[/action/item] Username[admin] WorkflowState[Archive] - Modify object state to Delete.</audit:justification>
+					</audit:record>
+				</audit:auditTrail>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2012-05-10T21:35:10.197Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="440">
+			<foxml:xmlContent>
+				<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:title>Edmonton LIFE: local indicators for excellence</dc:title>
+					<dc:identifier>uuid:0001add1-2506-4ae4-bd58-a8862310680a</dc:identifier>
+				</oai_dc:dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Object Relationships" CREATED="2012-05-10T21:35:10.635Z" MIMETYPE="text/xml" SIZE="244">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rel="info:fedora/fedora-system:def/relations-external#">
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a"></rdf:Description>
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="Object Relationships" CREATED="2012-05-10T21:35:13.211Z" MIMETYPE="text/xml" SIZE="337">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.2" LABEL="Object Relationships" CREATED="2012-05-10T21:35:13.431Z" MIMETYPE="text/xml" SIZE="511">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.3" LABEL="Object Relationships" CREATED="2012-05-10T21:35:14.134Z" MIMETYPE="text/xml" SIZE="616">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.4" LABEL="Object Relationships" CREATED="2012-05-10T21:35:14.374Z" MIMETYPE="text/xml" SIZE="737">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="Object Relationships" CREATED="2012-05-10T21:35:14.646Z" MIMETYPE="text/xml" SIZE="914">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.6" LABEL="Object Relationships" CREATED="2012-05-10T21:35:14.921Z" MIMETYPE="text/xml" SIZE="1007">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.7" LABEL="Object Relationships" CREATED="2012-05-10T21:35:15.241Z" MIMETYPE="text/xml" SIZE="1104">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.8" LABEL="Object Relationships" CREATED="2012-05-10T21:35:15.551Z" MIMETYPE="text/xml" SIZE="1279">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.9" LABEL="Object Relationships" CREATED="2012-05-10T21:35:15.821Z" MIMETYPE="text/xml" SIZE="1382">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.10" LABEL="Object Relationships" CREATED="2012-05-10T21:35:16.051Z" MIMETYPE="text/xml" SIZE="1515">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.11" LABEL="Object Relationships" CREATED="2012-05-11T21:03:10.190Z" MIMETYPE="text/xml" SIZE="1361">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:225a882d-e409-4680-a2fd-6678730d024e"></isMemberOfCollection>
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.12" LABEL="Object Relationships" CREATED="2012-05-11T21:03:10.505Z" MIMETYPE="text/xml" SIZE="1187">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.13" LABEL="Object Relationships" CREATED="2012-05-11T21:03:10.790Z" MIMETYPE="text/xml" SIZE="1341">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.14" LABEL="Object Relationships" CREATED="2012-05-11T21:03:11.110Z" MIMETYPE="text/xml" SIZE="1515">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.15" LABEL="Object Relationships" CREATED="2012-05-11T21:03:11.740Z" MIMETYPE="text/xml" SIZE="1394">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.16" LABEL="Object Relationships" CREATED="2012-05-11T21:03:12.010Z" MIMETYPE="text/xml" SIZE="1217">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.17" LABEL="Object Relationships" CREATED="2012-05-11T21:03:12.280Z" MIMETYPE="text/xml" SIZE="1338">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.18" LABEL="Object Relationships" CREATED="2012-05-11T21:03:12.590Z" MIMETYPE="text/xml" SIZE="1515">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.19" LABEL="Object Relationships" CREATED="2012-05-11T21:03:12.870Z" MIMETYPE="text/xml" SIZE="1412">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-10T21:35:10.035Z</workflowDate>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.20" LABEL="Object Relationships" CREATED="2012-05-11T21:03:13.190Z" MIMETYPE="text/xml" SIZE="1237">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.21" LABEL="Object Relationships" CREATED="2012-05-11T21:03:13.500Z" MIMETYPE="text/xml" SIZE="1412">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-11T21:03:09.143Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.22" LABEL="Object Relationships" CREATED="2012-05-11T21:03:13.820Z" MIMETYPE="text/xml" SIZE="1515">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:EMBARGOED"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-11T21:03:09.143Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.23" LABEL="Object Relationships" CREATED="2012-09-06T17:17:17.188Z" MIMETYPE="text/xml" SIZE="1553">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:DARK_REPOSITORY"></isPartOf>
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-11T21:03:09.143Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.24" LABEL="Object Relationships" CREATED="2015-07-22T19:10:19.744Z" MIMETYPE="text/xml" SIZE="1553">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:0001add1-2506-4ae4-bd58-a8862310680a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Report" />
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">default</formName>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:0001add1-2506-4ae4-bd58-a8862310680a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:4d49dbe7-50ec-4eb5-bbce-6447f3ca0294" />
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:ebe9932d-edd2-4673-9342-e6a7a8f300ba" />
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:DARK_REPOSITORY" />
+						<embargoedDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2062-05-31T06:00:00.000Z</embargoedDate>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-11T21:03:09.143Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<userId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</userId>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DS1.0" LABEL="1998_life.pdf" CREATED="2012-05-10T21:35:12.489Z" MIMETYPE="text/plain">
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+DS1+DS1.0" />
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DS1.1" LABEL="1998_life.pdf" CREATED="2014-04-15T21:03:41.579Z" MIMETYPE="text/plain">
+			<foxml:contentDigest TYPE="MD5" DIGEST="5598524dd173d31578376a5569aad461" />
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+DS1+DS1.1" />
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DS1.2" LABEL="1998_life.pdf" CREATED="2014-04-15T21:12:27.871Z" MIMETYPE="text/plain">
+			<foxml:contentDigest TYPE="MD5" DIGEST="5598524dd173d31578376a5569aad461" />
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+DS1+DS1.2" />
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DS1.13" LABEL="1998_life.pdf" CREATED="2014-04-24T18:09:29.113Z" MIMETYPE="text/plain">
+			<foxml:contentDigest TYPE="MD5" DIGEST="5598524dd173d31578376a5569aad461" />
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+DS1+DS1.13" />
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DCQ" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DCQ.0" LABEL="Item Metadata" CREATED="2012-05-10T21:35:12.948Z" MIMETYPE="text/xml" SIZE="1315">
+			<foxml:xmlContent>
+				<dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+					<dc:creator>Edmonton Social Planning Council</dc:creator>
+					<dc:format xsi:type="dcterms:IMT">text/plain</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+					<dc:subject>Urban issues - community social needs and trends - social indicators</dc:subject>
+					<dc:title>Edmonton LIFE: local indicators for excellence</dc:title>
+					<dc:type>Report</dc:type>
+					<dcterms:created>1998</dcterms:created>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2012-05-10T15:35:10Z</dcterms:dateaccepted>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2012-05-10T15:35:10Z</dcterms:datesubmitted>
+					<dcterms:extent>1824617 bytes</dcterms:extent>
+					<dcterms:identifier xsi:type="eraterms:local">uuid:0001add1-2506-4ae4-bd58-a8862310680a</dcterms:identifier>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10402/era.26248</dcterms:identifier>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DCQ.1" LABEL="Item Metadata" CREATED="2012-05-11T21:03:09.578Z" MIMETYPE="text/xml" SIZE="1315">
+			<foxml:xmlContent>
+				<dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+					<dc:creator>Edmonton Social Planning Council</dc:creator>
+					<dc:format xsi:type="dcterms:IMT">text/plain</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+					<dc:subject>Urban issues - community social needs and trends - social indicators</dc:subject>
+					<dc:title>Edmonton LIFE: local indicators for excellence</dc:title>
+					<dc:type>Report</dc:type>
+					<dcterms:created>1998</dcterms:created>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2012-05-10T15:35:10Z</dcterms:dateaccepted>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2012-05-10T15:35:10Z</dcterms:datesubmitted>
+					<dcterms:extent>1824617 bytes</dcterms:extent>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10402/era.26248</dcterms:identifier>
+					<dcterms:identifier xsi:type="eraterms:local">uuid:0001add1-2506-4ae4-bd58-a8862310680a</dcterms:identifier>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="LICENSE.0" LABEL="License Language Pending" CREATED="2012-05-10T21:35:13.752Z" MIMETYPE="text/plain">
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+LICENSE+LICENSE.0" />
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="LICENSE.1" LABEL="License Language Pending" CREATED="2014-04-23T19:13:04.760Z" MIMETYPE="text/plain">
+			<foxml:contentDigest TYPE="MD5" DIGEST="184fe7b6aba106ed5e52894651f49edd" />
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+LICENSE+LICENSE.1" />
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="LICENSE.10" LABEL="License Language Pending" CREATED="2014-04-24T18:09:30.476Z" MIMETYPE="text/plain">
+			<foxml:contentDigest TYPE="MD5" DIGEST="184fe7b6aba106ed5e52894651f49edd" />
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:0001add1-2506-4ae4-bd58-a8862310680a+LICENSE+LICENSE.10" />
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+</foxml:digitalObject>

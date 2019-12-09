@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<foxml:digitalObject VERSION="1.1" PID="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+  <foxml:objectProperties>
+    <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="The effect of long-term interleukin-1 beta exposure on sensory neuron electrical membrane properties: implications for neuropathic pain" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="era-administrator" />
+    <foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-03-13T16:40:19.979Z" />
+    <foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2012-05-09T19:04:34.844Z" />
+  </foxml:objectProperties>
+  <foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+    <foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-03-13T16:40:19.979Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+      <foxml:xmlContent>
+        <audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+          <audit:record ID="AUDREC1">
+            <audit:process type="Fedora API-M" />
+            <audit:action>ingest</audit:action>
+            <audit:componentID />
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-13T16:40:19.979Z</audit:date>
+            <audit:justification>Ingest Objects</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC2">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-14T19:33:40.943Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC3">
+            <audit:process type="Fedora API-M" />
+            <audit:action>addDatastream</audit:action>
+            <audit:componentID>THUMBNAIL</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-03-20T17:26:20.543Z</audit:date>
+            <audit:justification>BatchModify - addDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC4">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByReference</audit:action>
+            <audit:componentID>LICENSE</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-04-04T19:09:33.894Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+          <audit:record ID="AUDREC5">
+            <audit:process type="Fedora API-M" />
+            <audit:action>modifyDatastreamByValue</audit:action>
+            <audit:componentID>DCQ</audit:componentID>
+            <audit:responsibility>fedoraAdmin</audit:responsibility>
+            <audit:date>2012-05-09T19:04:34.844Z</audit:date>
+            <audit:justification>BatchModify - modifyDatastream</audit:justification>
+          </audit:record>
+        </audit:auditTrail>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DCQ" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:40:20.060Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="6357">
+      <foxml:xmlContent>
+        <dc xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+          <thesis:contributor role="advisor">Smith, Peter (Pharmacology)</thesis:contributor>
+          <dc:creator>Stemkowski, Patrick</dc:creator>
+          <thesis:contributor role="committeemember">Tse, Fred (Pharmacology)</thesis:contributor>
+          <thesis:contributor role="committeemember">Dryden, Bill
+            (Pharmacology)</thesis:contributor>
+          <dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2011-01-10T22:55:27Z</dcterms:dateaccepted>
+          <eraterms:graduationdate>2011-06</eraterms:graduationdate>
+          <dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/1713</dcterms:identifier>
+          <dcterms:abstract>The effect of interleukin-1 beta (IL-1β) on the electrical properties of
+            sensory neurons was assessed at comparable levels and exposure times to those found in
+            animal models of neuropathic pain. Experiments involved whole cell current- or
+            voltage-clamp recordings from rat dorsal root ganglion (DRG) neurons in defined medium,
+            neuron enriched cultures. 5-6 days exposure to 100 pM IL-1β produced neuron specific
+            effects. These included an increase in the excitability of medium diameter and small
+            diameter isolectin B4 (IB4)-positive neurons that was comparable to that found after
+            peripheral nerve injury. By contrast, a reduction in excitability was observed in large
+            diameter neurons, while no effect was found in small diameter IB4-negative neurons.
+            Further characterization of changes in medium and small IB4-positive neurons revealed
+            that some, but not all, effects of IL-1β were mediated through its receptor, IL-1RI.
+            Using appropriate voltage protocols and/or ion substitutions, it was found that neuron
+            specific changes in several ionic currents, including alterations in hyperpolarization
+            activated inward current (IH) and decreases in various K+ currents contribute to the
+            increased excitability produced by IL-1β. Overall, these studies revealed that: 1. The
+            effects of long-term exposure of DRG neurons to IL-1β are reflective of the enduring
+            increase in primary afferent excitability reported after peripheral nerve injury. This
+            expands the recognized role of IL-1β in acute inflammatory pain to neuropathic pain. 2.
+            Hyperexcitability in medium neurons exposed to IL-1β likely includes mixed populations
+            of neurons corresponding to nociceptive and non-nociceptive primary afferent fibres and,
+            therefore, has relevance to hyperalgesia and allodynia, respectively. 3. The
+            responsiveness of small IB4-positive neurons, but not IB4-negative, to prolonged IL-1β
+            exposure is consistent with the suggestion that small IB4-negative afferents are
+            involved in inflammatory pain, while small IB4-positive afferents are involved
+            neuropathic pain. 4. The identification of receptor mediated effects and several
+            contributing ionic mechanisms, may have relevance to the development of new therapeutic
+            approaches to neuropathic pain. 5. IL-1β can contribute to increased neuronal
+            excitability by mechanisms that are independent of IL-1RI signalling. This should be
+            taken into account when targeting IL-1β, or more specifically IL-1RI, in the management
+            of neuropathic pain.</dcterms:abstract>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">Submitted by Patrick Stemkowski
+            (pstemkowski@pmcol.ualberta.ca) on 2011-01-07T21:10:48Z No. of bitstreams: 1 Patrick
+            Lester Stemkowski Doctoral Thesis.pdf: 12449206 bytes, checksum:
+            ddcb8431a4b328cee8abcda4c0d2af54 (MD5)</dcterms:datesubmitted>
+          <dcterms:provenance>Rejected by Sintra Lewis(sintra.lewis@ualberta.ca), reason: As per
+            your request. Thank you. on 2011-01-10T16:29:53Z (GMT)</dcterms:provenance>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">Submitted by Patrick Stemkowski
+            (pstemkowski@pmcol.ualberta.ca) on 2011-01-10T17:00:47Z No. of bitstreams: 1
+            Stemkowski_Patrick_Spring 2011.pdf: 12449210 bytes, checksum:
+            3d239654d5c76c8dec3ad221985fdc19 (MD5)</dcterms:datesubmitted>
+          <dcterms:provenance>Approved for entry into archive by Deanna
+            Baron(deanna.baron@ualberta.ca) on 2011-01-10T22:55:26Z (GMT) No. of bitstreams: 1
+            Stemkowski_Patrick_Spring 2011.pdf: 12449210 bytes, checksum:
+            3d239654d5c76c8dec3ad221985fdc19 (MD5)</dcterms:provenance>
+          <dcterms:provenance>Made available in DSpace on 2011-01-10T22:55:27Z (GMT). No. of
+            bitstreams: 1 Stemkowski_Patrick_Spring 2011.pdf: 12449210 bytes, checksum:
+            3d239654d5c76c8dec3ad221985fdc19 (MD5)</dcterms:provenance>
+          <dcterms:extent>12449210 bytes</dcterms:extent>
+          <dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+          <dc:language xsi:type="dcterms:ISO639-3">en</dc:language>
+          <dc:subject>sensory neurons</dc:subject>
+          <dc:subject>dorsal root ganglion</dc:subject>
+          <dc:subject>interleukin-1 beta</dc:subject>
+          <dc:subject>neuropathic pain</dc:subject>
+          <dc:subject>electrophysiology</dc:subject>
+          <dc:subject>cell culture</dc:subject>
+          <dc:subject>excitability</dc:subject>
+          <dc:subject>ion channels</dc:subject>
+          <dc:subject>peripheral nerve injury</dc:subject>
+          <dc:subject>central sensitization</dc:subject>
+          <dc:title>The effect of long-term interleukin-1 beta exposure on sensory neuron electrical membrane properties: implications for neuropathic pain</dc:title>
+          <dc:type>Thesis</dc:type>
+          <thesis:degree>
+            <thesis:name>Doctor of Philosophy</thesis:name>
+            <thesis:level>Doctoral</thesis:level>
+            <thesis:discipline>Centre for Neuroscience</thesis:discipline>
+            <thesis:grantor>University of Alberta</thesis:grantor>
+          </thesis:degree>
+          <dcterms:identifier xsi:type="eraterms:local">uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62</dcterms:identifier>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="DCQ.1" LABEL="Dublin Core Record for this object" CREATED="2012-05-09T19:04:34.844Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/">
+      <foxml:xmlContent>
+        <dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+          <dcterms:identifier xsi:type="eraterms:local">uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62</dcterms:identifier>
+          <thesis:contributor role="advisor">Smith, Peter (Pharmacology)</thesis:contributor>
+          <dc:creator>Stemkowski, Patrick</dc:creator>
+          <thesis:contributor role="committeemember">Tse, Fred (Pharmacology)</thesis:contributor>
+          <thesis:contributor role="committeemember">Dryden, Bill
+            (Pharmacology)</thesis:contributor>
+          <dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2011-01-10T22:55:27Z</dcterms:dateaccepted>
+          <eraterms:graduationdate>2011-06</eraterms:graduationdate>
+          <dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/1713</dcterms:identifier>
+          <dcterms:abstract>The effect of interleukin-1 beta (IL-1β) on the electrical properties of
+            sensory neurons was assessed at comparable levels and exposure times to those found in
+            animal models of neuropathic pain. Experiments involved whole cell current- or
+            voltage-clamp recordings from rat dorsal root ganglion (DRG) neurons in defined medium,
+            neuron enriched cultures. 5-6 days exposure to 100 pM IL-1β produced neuron specific
+            effects. These included an increase in the excitability of medium diameter and small
+            diameter isolectin B4 (IB4)-positive neurons that was comparable to that found after
+            peripheral nerve injury. By contrast, a reduction in excitability was observed in large
+            diameter neurons, while no effect was found in small diameter IB4-negative neurons.
+            Further characterization of changes in medium and small IB4-positive neurons revealed
+            that some, but not all, effects of IL-1β were mediated through its receptor, IL-1RI.
+            Using appropriate voltage protocols and/or ion substitutions, it was found that neuron
+            specific changes in several ionic currents, including alterations in hyperpolarization
+            activated inward current (IH) and decreases in various K+ currents contribute to the
+            increased excitability produced by IL-1β. Overall, these studies revealed that: 1. The
+            effects of long-term exposure of DRG neurons to IL-1β are reflective of the enduring
+            increase in primary afferent excitability reported after peripheral nerve injury. This
+            expands the recognized role of IL-1β in acute inflammatory pain to neuropathic pain. 2.
+            Hyperexcitability in medium neurons exposed to IL-1β likely includes mixed populations
+            of neurons corresponding to nociceptive and non-nociceptive primary afferent fibres and,
+            therefore, has relevance to hyperalgesia and allodynia, respectively. 3. The
+            responsiveness of small IB4-positive neurons, but not IB4-negative, to prolonged IL-1β
+            exposure is consistent with the suggestion that small IB4-negative afferents are
+            involved in inflammatory pain, while small IB4-positive afferents are involved
+            neuropathic pain. 4. The identification of receptor mediated effects and several
+            contributing ionic mechanisms, may have relevance to the development of new therapeutic
+            approaches to neuropathic pain. 5. IL-1β can contribute to increased neuronal
+            excitability by mechanisms that are independent of IL-1RI signalling. This should be
+            taken into account when targeting IL-1β, or more specifically IL-1RI, in the management
+            of neuropathic pain.</dcterms:abstract>
+          <dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2011-01-07T21:10:48Z</dcterms:datesubmitted>
+          <dcterms:extent>12449210 bytes</dcterms:extent>
+          <dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+          <dc:language xsi:type="dcterms:ISO639-3">en</dc:language>
+          <dc:subject>sensory neurons</dc:subject>
+          <dc:subject>dorsal root ganglion</dc:subject>
+          <dc:subject>interleukin-1 beta</dc:subject>
+          <dc:subject>neuropathic pain</dc:subject>
+          <dc:subject>electrophysiology</dc:subject>
+          <dc:subject>cell culture</dc:subject>
+          <dc:subject>excitability</dc:subject>
+          <dc:subject>ion channels</dc:subject>
+          <dc:subject>peripheral nerve injury</dc:subject>
+          <dc:subject>central sensitization</dc:subject>
+          <dc:title>The effect of long-term interleukin-1 beta exposure on sensory neuron electrical membrane properties: implications for neuropathic pain</dc:title>
+          <dc:type>Thesis</dc:type>
+          <thesis:degree>
+            <thesis:name>Doctor of Philosophy</thesis:name>
+            <thesis:level>Doctoral</thesis:level>
+            <thesis:discipline>Centre for Neuroscience</thesis:discipline>
+            <thesis:grantor>University of Alberta</thesis:grantor>
+          </thesis:degree>
+        </dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="LICENSE.0" LABEL="license.txt" CREATED="2012-03-13T16:40:20.060Z" MIMETYPE="text/xml">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62+LICENSE+LICENSE.0" />
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="LICENSE.1" LABEL="license.txt" CREATED="2012-03-14T19:33:40.943Z" MIMETYPE="text/plain">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62+LICENSE+LICENSE.1" />
+    </foxml:datastreamVersion>
+    <foxml:datastreamVersion ID="LICENSE.2" LABEL="license.txt" CREATED="2012-04-04T19:09:33.894Z" MIMETYPE="text/plain">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62+LICENSE+LICENSE.2" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DS1.0" LABEL="Stemkowski_Patrick_Spring 2011.pdf" CREATED="2012-03-13T16:40:20.060Z" MIMETYPE="application/pdf">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62+DS1+DS1.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Item Relationships" CREATED="2012-03-13T16:40:20.061Z" MIMETYPE="text/xml" SIZE="1302">
+      <foxml:xmlContent>
+        <rdf:RDF xmlns:rel="info:fedora/fedora-system:def/relations-external#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+          <rdf:Description rdf:about="info:fedora/uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62">
+            <hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis" />
+            <isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269" />
+            <isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc" />
+            <formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+            <workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+            <itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62</itemID>
+            <workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:40:19.202Z</workflowDate>
+          </rdf:Description>
+        </rdf:RDF>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:40:19.979Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="529">
+      <foxml:xmlContent>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>The effect of long-term interleukin-1 beta exposure on sensory neuron electrical membrane properties: implications for neuropathic pain</dc:title>
+          <dc:identifier>uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62</dc:identifier>
+        </oai_dc:dc>
+      </foxml:xmlContent>
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+  <foxml:datastream ID="THUMBNAIL" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+    <foxml:datastreamVersion ID="THUMBNAIL.0" LABEL="Item Thumbnail" CREATED="2012-03-20T17:26:20.543Z" MIMETYPE="image/gif">
+      <foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:ea2e65c8-1120-4fde-90cc-930ff5fc5c62+THUMBNAIL+THUMBNAIL.0" />
+    </foxml:datastreamVersion>
+  </foxml:datastream>
+</foxml:digitalObject>

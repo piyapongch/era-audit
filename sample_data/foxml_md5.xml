@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<foxml:digitalObject VERSION="1.1" PID="uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a" xmlns:foxml="info:fedora/fedora-system:def/foxml#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+	<foxml:objectProperties>
+		<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#ownerId" VALUE="era-administrator" />
+		<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2012-03-13T16:13:08.655Z" />
+		<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2012-06-28T15:21:04.357Z" />
+	</foxml:objectProperties>
+	<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+		<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2012-03-13T16:13:08.655Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+			<foxml:xmlContent>
+				<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+					<audit:record ID="AUDREC1">
+						<audit:process type="Fedora API-M" />
+						<audit:action>ingest</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-03-13T16:13:08.655Z</audit:date>
+						<audit:justification>Ingest Objects</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC2">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-03-14T19:19:40.372Z</audit:date>
+						<audit:justification>BatchModify - modifyDatastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC3">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>THUMBNAIL</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-03-20T17:22:46.891Z</audit:date>
+						<audit:justification>BatchModify - addDatastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC4">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByReference</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-04-04T19:03:13.534Z</audit:date>
+						<audit:justification>BatchModify - modifyDatastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC5">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByValue</audit:action>
+						<audit:componentID>DCQ</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-05-09T19:00:15.554Z</audit:date>
+						<audit:justification>BatchModify - modifyDatastream</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC6">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyObject</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-25T19:31:58.500Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC7">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByValue</audit:action>
+						<audit:componentID>DCQ</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-25T19:31:59.480Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC8">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-25T19:32:07.880Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive . . . Purged datastream (ID=LICENSE), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 3 datastream version(s) (2012-03-13T10:13:08.745Z, 2012-03-14T13:19:40.372Z, 2012-04-04T13:03:13.534Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC9">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-25T19:32:08.819Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC10">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyObject</audit:action>
+						<audit:componentID></audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-28T15:21:01.137Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC11">
+						<audit:process type="Fedora API-M" />
+						<audit:action>modifyDatastreamByValue</audit:action>
+						<audit:componentID>DCQ</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-28T15:21:01.467Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC12">
+						<audit:process type="Fedora API-M" />
+						<audit:action>purgeDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-28T15:21:02.897Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive . . . Purged datastream (ID=LICENSE), versions ranging from the beginning of time to the end of time.  This resulted in the permanent removal of 1 datastream version(s) (2012-06-25T13:32:08.819Z) and all associated audit records.</audit:justification>
+					</audit:record>
+					<audit:record ID="AUDREC13">
+						<audit:process type="Fedora API-M" />
+						<audit:action>addDatastream</audit:action>
+						<audit:componentID>LICENSE</audit:componentID>
+						<audit:responsibility>fedoraAdmin</audit:responsibility>
+						<audit:date>2012-06-28T15:21:03.160Z</audit:date>
+						<audit:justification>ERA: [/action/submit] admin Archive - Archive</audit:justification>
+					</audit:record>
+				</audit:auditTrail>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DCQ" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DC.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:13:08.745Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="6142">
+			<foxml:xmlContent>
+				<dc xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+					<thesis:contributor role="advisor">Kellogg, Catherine (Political Science)</thesis:contributor>
+					<dc:creator>Tchir, Trevor</dc:creator>
+					<thesis:contributor role="committeemember">Kahane, David (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Barbour, Charles (Sociology)</thesis:contributor>
+					<thesis:contributor role="committeemember">Epp, Roger (Political Studies, Augustana Campus)</thesis:contributor>
+					<thesis:contributor role="committeemember">Markell, Patchen (Political Science, University of Chicago)</thesis:contributor>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2009-07-13T21:13:30Z</dcterms:dateaccepted>
+					<eraterms:graduationdate>2009-11</eraterms:graduationdate>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/469</dcterms:identifier>
+					<dcterms:abstract>Hannah Arendt argues that political action is only meaningful through the disclosure of who the actor uniquely is, and that this disclosure is the basis of human dignity.  Arendt’s notion of performative disclosure helps us to rethink the individuated actor, not as a sovereign and self-transparent subject whose action expresses an authentic individual essence or constative what, but rather as a decentered and ecstatic who whose action reveals meaningful dimensions of the world and of the actor’s unique situation in history, through the performance of acts and speech before public spectators.  The idea that no actor can stand in a position of control with respect to his life story extends to a critical displacement of the notion of freedom understood as sovereignty and of political projects that attempt to make history. Action, as praxis and not poiesis, is best understood through Arendt’s metaphor of performance, rather than productive art.  	
+	There are new interpretive possibilities for Arendt’s theory of action, especially if we trace appearances of the ancient Greek daimon in Arendt’s publications and lecture notes, and among works that Arendt confronted: Plato’s Socratic dialogues and the myth of Er, Heidegger’s notion of aletheia as Dasein’s disclosure of Being, Jaspers’ valid personality, and Kant’s notion of aesthetic genius.  The daimon implies that the public realm is a spiritual realm, that action is a form of connection to the divine, and that the actor is a decentered discloser of transcendent meanings and new possibilities within the world. The daimon also shows moral deliberation to be more vital to meaningful action than Arendt suggests prior to The Life of the Mind, so that the distinctions usually read in Arendt between actor and spectator, as well as those between acting, thinking, and judging, may be productively occluded. 
+	 Arendt’s struggle to re-invigorate action’s disclosive capacity is at the center of her entire project.  It sheds light on her critique of the world-alienating aspects of Marx, her insistent protection of a distinct political sphere from the private and the social spheres, and her rejection of Hegel’s philosophy of history in favor of a fragmentary historiography inspired by Kafka and Benjamin.</dcterms:abstract>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">Submitted by Trevor Tchir (tchir@ualberta.ca) on 2009-07-10T15:37:43Z
+No. of bitstreams: 1
+Tchir_Trevor_Fall2009.pdf: 3570059 bytes, checksum: cd0980c5c8757d0e0acac1982a7f3c6e (MD5)</dcterms:datesubmitted>
+					<dcterms:provenance>Rejected by Krista Ganshorn(krista.ganshorn@ualberta.ca), reason: Please add a page to the thesis with your examining committee listed (should appear after your title pg)
+Then resubmit your thesis to DSpace.
+Thank you. on 2009-07-10T21:24:43Z (GMT)</dcterms:provenance>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">Submitted by Trevor Tchir (tchir@ualberta.ca) on 2009-07-13T15:44:53Z
+No. of bitstreams: 1
+Tchir_Trevor_Fall2009.pdf: 3617979 bytes, checksum: 4822827304c7012abcffa79e58b8957f (MD5)</dcterms:datesubmitted>
+					<dcterms:provenance>Approved for entry into archive by Kristy Hollingshead-Rumsey(kristy.hollingshead-rumsey@ualberta.ca) on 2009-07-13T21:13:29Z (GMT) No. of bitstreams: 1
+Tchir_Trevor_Fall2009.pdf: 3617979 bytes, checksum: 4822827304c7012abcffa79e58b8957f (MD5)</dcterms:provenance>
+					<dcterms:provenance>Made available in DSpace on 2009-07-13T21:13:30Z (GMT). No. of bitstreams: 1
+Tchir_Trevor_Fall2009.pdf: 3617979 bytes, checksum: 4822827304c7012abcffa79e58b8957f (MD5)</dcterms:provenance>
+					<dcterms:extent>3617979 bytes</dcterms:extent>
+					<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">en</dc:language>
+					<dc:subject>Arendt, action, disclosure, the &apos;who&apos;, praxis, performative, politics, daimon, actor, spectator, history, judgment, freedom, identity, Plato, Aristotle, Socrates, Heidegger, Jaspers, Marx, Kant, Hegel</dc:subject>
+					<dc:title>Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action</dc:title>
+					<dc:type>Thesis</dc:type>
+					<thesis:degree>
+						<thesis:name>Doctor of Philosophy</thesis:name>
+						<thesis:level>Doctoral</thesis:level>
+						<thesis:discipline>Political Science</thesis:discipline>
+						<thesis:grantor>University of Alberta</thesis:grantor>
+					</thesis:degree>
+					<dcterms:identifier xsi:type="eraterms:local">uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</dcterms:identifier>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DCQ.1" LABEL="Dublin Core Record for this object" CREATED="2012-05-09T19:00:15.554Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="4570">
+			<foxml:xmlContent>
+				<dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+					<dcterms:identifier xsi:type="eraterms:local">uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</dcterms:identifier>
+					<thesis:contributor role="advisor">Kellogg, Catherine (Political Science)</thesis:contributor>
+					<dc:creator>Tchir, Trevor</dc:creator>
+					<thesis:contributor role="committeemember">Kahane, David (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Barbour, Charles (Sociology)</thesis:contributor>
+					<thesis:contributor role="committeemember">Epp, Roger (Political Studies, Augustana Campus)</thesis:contributor>
+					<thesis:contributor role="committeemember">Markell, Patchen (Political Science, University of Chicago)</thesis:contributor>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2009-07-13T21:13:30Z</dcterms:dateaccepted>
+					<eraterms:graduationdate>2009-11</eraterms:graduationdate>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10048/469</dcterms:identifier>
+					<dcterms:abstract>Hannah Arendt argues that political action is only meaningful through the disclosure of who the actor uniquely is, and that this disclosure is the basis of human dignity.  Arendt’s notion of performative disclosure helps us to rethink the individuated actor, not as a sovereign and self-transparent subject whose action expresses an authentic individual essence or constative what, but rather as a decentered and ecstatic who whose action reveals meaningful dimensions of the world and of the actor’s unique situation in history, through the performance of acts and speech before public spectators.  The idea that no actor can stand in a position of control with respect to his life story extends to a critical displacement of the notion of freedom understood as sovereignty and of political projects that attempt to make history. Action, as praxis and not poiesis, is best understood through Arendt’s metaphor of performance, rather than productive art.  	
+	There are new interpretive possibilities for Arendt’s theory of action, especially if we trace appearances of the ancient Greek daimon in Arendt’s publications and lecture notes, and among works that Arendt confronted: Plato’s Socratic dialogues and the myth of Er, Heidegger’s notion of aletheia as Dasein’s disclosure of Being, Jaspers’ valid personality, and Kant’s notion of aesthetic genius.  The daimon implies that the public realm is a spiritual realm, that action is a form of connection to the divine, and that the actor is a decentered discloser of transcendent meanings and new possibilities within the world. The daimon also shows moral deliberation to be more vital to meaningful action than Arendt suggests prior to The Life of the Mind, so that the distinctions usually read in Arendt between actor and spectator, as well as those between acting, thinking, and judging, may be productively occluded. 
+	 Arendt’s struggle to re-invigorate action’s disclosive capacity is at the center of her entire project.  It sheds light on her critique of the world-alienating aspects of Marx, her insistent protection of a distinct political sphere from the private and the social spheres, and her rejection of Hegel’s philosophy of history in favor of a fragmentary historiography inspired by Kafka and Benjamin.</dcterms:abstract>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2009-07-10T15:37:43Z</dcterms:datesubmitted>
+					<dcterms:extent>3617979 bytes</dcterms:extent>
+					<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">en</dc:language>
+					<dc:subject>Arendt, action, disclosure, the &apos;who&apos;, praxis, performative, politics, daimon, actor, spectator, history, judgment, freedom, identity, Plato, Aristotle, Socrates, Heidegger, Jaspers, Marx, Kant, Hegel</dc:subject>
+					<dc:title>Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action</dc:title>
+					<dc:type>Thesis</dc:type>
+					<thesis:degree>
+						<thesis:name>Doctor of Philosophy</thesis:name>
+						<thesis:level>Doctoral</thesis:level>
+						<thesis:discipline>Political Science</thesis:discipline>
+						<thesis:grantor>University of Alberta</thesis:grantor>
+					</thesis:degree>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DCQ.2" LABEL="Item Metadata" CREATED="2012-06-25T19:31:59.480Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="4651">
+			<foxml:xmlContent>
+				<dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+					<dc:creator>Tchir, Trevor</dc:creator>
+					<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+					<dc:subject>Arendt, action, disclosure, the &apos;who&apos;, praxis, performative, politics, daimon, actor, spectator, history, judgment, freedom, identity, Plato, Aristotle, Socrates, Heidegger, Jaspers, Marx, Kant, Hegel</dc:subject>
+					<dc:title>Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action</dc:title>
+					<dc:type>Thesis</dc:type>
+					<dcterms:abstract>Hannah Arendt argues that political action is only meaningful through the disclosure of who the actor uniquely is, and that this disclosure is the basis of human dignity.  Arendt’s notion of performative disclosure helps us to rethink the individuated actor, not as a sovereign and self-transparent subject whose action expresses an authentic individual essence or constative what, but rather as a decentered and ecstatic who whose action reveals meaningful dimensions of the world and of the actor’s unique situation in history, through the performance of acts and speech before public spectators.  The idea that no actor can stand in a position of control with respect to his life story extends to a critical displacement of the notion of freedom understood as sovereignty and of political projects that attempt to make history. Action, as praxis and not poiesis, is best understood through Arendt’s metaphor of performance, rather than productive art.  	
+	There are new interpretive possibilities for Arendt’s theory of action, especially if we trace appearances of the ancient Greek daimon in Arendt’s publications and lecture notes, and among works that Arendt confronted: Plato’s Socratic dialogues and the myth of Er, Heidegger’s notion of aletheia as Dasein’s disclosure of Being, Jaspers’ valid personality, and Kant’s notion of aesthetic genius.  The daimon implies that the public realm is a spiritual realm, that action is a form of connection to the divine, and that the actor is a decentered discloser of transcendent meanings and new possibilities within the world. The daimon also shows moral deliberation to be more vital to meaningful action than Arendt suggests prior to The Life of the Mind, so that the distinctions usually read in Arendt between actor and spectator, as well as those between acting, thinking, and judging, may be productively occluded. 
+	 Arendt’s struggle to re-invigorate action’s disclosive capacity is at the center of her entire project.  It sheds light on her critique of the world-alienating aspects of Marx, her insistent protection of a distinct political sphere from the private and the social spheres, and her rejection of Hegel’s philosophy of history in favor of a fragmentary historiography inspired by Kafka and Benjamin.</dcterms:abstract>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2009-07-13T21:13:30Z</dcterms:dateaccepted>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2009-07-10T15:37:43Z</dcterms:datesubmitted>
+					<dcterms:extent>3617979 bytes</dcterms:extent>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10402/era.27896</dcterms:identifier>
+					<dcterms:identifier xsi:type="eraterms:local">uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</dcterms:identifier>
+					<eraterms:graduationdate>2012-11</eraterms:graduationdate>
+					<thesis:contributor role="advisor">Kellogg, Catherine (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Kahane, David (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Barbour, Charles (Sociology)</thesis:contributor>
+					<thesis:contributor role="committeemember">Epp, Roger (Political Studies, Augustana Campus)</thesis:contributor>
+					<thesis:contributor role="committeemember">Markell, Patchen (Political Science, University of Chicago)</thesis:contributor>
+					<thesis:degree>
+						<thesis:discipline>Department of Political Science</thesis:discipline>
+						<thesis:grantor>University of Alberta</thesis:grantor>
+						<thesis:level>Doctoral</thesis:level>
+						<thesis:name>Doctor of Philosophy</thesis:name>
+					</thesis:degree>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="DCQ.3" LABEL="Item Metadata" CREATED="2012-06-28T15:21:01.467Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="4651">
+			<foxml:xmlContent>
+				<dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:eraterms="http://era.library.ualberta.ca/eraterms" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.0/ http://www.ndltd.org/standards/metadata/etdms/1.0/etdms.xsd">
+					<dc:creator>Tchir, Trevor</dc:creator>
+					<dc:format xsi:type="dcterms:IMT">application/pdf</dc:format>
+					<dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+					<dc:subject>Arendt, action, disclosure, the &apos;who&apos;, praxis, performative, politics, daimon, actor, spectator, history, judgment, freedom, identity, Plato, Aristotle, Socrates, Heidegger, Jaspers, Marx, Kant, Hegel</dc:subject>
+					<dc:title>Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action</dc:title>
+					<dc:type>Thesis</dc:type>
+					<dcterms:abstract>Hannah Arendt argues that political action is only meaningful through the disclosure of who the actor uniquely is, and that this disclosure is the basis of human dignity.  Arendt’s notion of performative disclosure helps us to rethink the individuated actor, not as a sovereign and self-transparent subject whose action expresses an authentic individual essence or constative what, but rather as a decentered and ecstatic who whose action reveals meaningful dimensions of the world and of the actor’s unique situation in history, through the performance of acts and speech before public spectators.  The idea that no actor can stand in a position of control with respect to his life story extends to a critical displacement of the notion of freedom understood as sovereignty and of political projects that attempt to make history. Action, as praxis and not poiesis, is best understood through Arendt’s metaphor of performance, rather than productive art.  	
+	There are new interpretive possibilities for Arendt’s theory of action, especially if we trace appearances of the ancient Greek daimon in Arendt’s publications and lecture notes, and among works that Arendt confronted: Plato’s Socratic dialogues and the myth of Er, Heidegger’s notion of aletheia as Dasein’s disclosure of Being, Jaspers’ valid personality, and Kant’s notion of aesthetic genius.  The daimon implies that the public realm is a spiritual realm, that action is a form of connection to the divine, and that the actor is a decentered discloser of transcendent meanings and new possibilities within the world. The daimon also shows moral deliberation to be more vital to meaningful action than Arendt suggests prior to The Life of the Mind, so that the distinctions usually read in Arendt between actor and spectator, as well as those between acting, thinking, and judging, may be productively occluded. 
+	 Arendt’s struggle to re-invigorate action’s disclosive capacity is at the center of her entire project.  It sheds light on her critique of the world-alienating aspects of Marx, her insistent protection of a distinct political sphere from the private and the social spheres, and her rejection of Hegel’s philosophy of history in favor of a fragmentary historiography inspired by Kafka and Benjamin.</dcterms:abstract>
+					<dcterms:dateaccepted xsi:type="dcterms:W3CDTF">2009-07-13T21:13:30Z</dcterms:dateaccepted>
+					<dcterms:datesubmitted xsi:type="dcterms:W3CDTF">2009-07-10T15:37:43Z</dcterms:datesubmitted>
+					<dcterms:extent>3617979 bytes</dcterms:extent>
+					<dcterms:identifier xsi:type="dcterms:URI">http://hdl.handle.net/10402/era.27896</dcterms:identifier>
+					<dcterms:identifier xsi:type="eraterms:local">uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</dcterms:identifier>
+					<eraterms:graduationdate>2009-11</eraterms:graduationdate>
+					<thesis:contributor role="advisor">Kellogg, Catherine (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Kahane, David (Political Science)</thesis:contributor>
+					<thesis:contributor role="committeemember">Barbour, Charles (Sociology)</thesis:contributor>
+					<thesis:contributor role="committeemember">Epp, Roger (Political Studies, Augustana Campus)</thesis:contributor>
+					<thesis:contributor role="committeemember">Markell, Patchen (Political Science, University of Chicago)</thesis:contributor>
+					<thesis:degree>
+						<thesis:discipline>Department of Political Science</thesis:discipline>
+						<thesis:grantor>University of Alberta</thesis:grantor>
+						<thesis:level>Doctoral</thesis:level>
+						<thesis:name>Doctor of Philosophy</thesis:name>
+					</thesis:degree>
+				</dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DS1" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DS1.0" LABEL="Tchir_Trevor_Fall2009.pdf" CREATED="2012-03-13T16:13:08.745Z" MIMETYPE="application/pdf">
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a+DS1+DS1.0" />
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="Item Relationships" CREATED="2012-03-13T16:13:08.746Z" MIMETYPE="text/xml" SIZE="1301">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rel="info:fedora/fedora-system:def/relations-external#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+					</rdf:Description>
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.1" LABEL="Item Relationships" CREATED="2012-06-25T19:31:59.841Z" MIMETYPE="text/xml" SIZE="964">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.2" LABEL="Item Relationships" CREATED="2012-06-25T19:32:00.172Z" MIMETYPE="text/xml" SIZE="790">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.3" LABEL="Item Relationships" CREATED="2012-06-25T19:32:00.674Z" MIMETYPE="text/xml" SIZE="944">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.4" LABEL="Item Relationships" CREATED="2012-06-25T19:32:07.445Z" MIMETYPE="text/xml" SIZE="1118">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.5" LABEL="Item Relationships" CREATED="2012-06-25T19:32:09.472Z" MIMETYPE="text/xml" SIZE="1245">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.6" LABEL="Item Relationships" CREATED="2012-06-25T19:32:10.112Z" MIMETYPE="text/xml" SIZE="1342">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.7" LABEL="Item Relationships" CREATED="2012-06-25T19:32:10.632Z" MIMETYPE="text/xml" SIZE="1239">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-13T10:13:4.448Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.8" LABEL="Item Relationships" CREATED="2012-06-25T19:32:11.326Z" MIMETYPE="text/xml" SIZE="1065">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.9" LABEL="Item Relationships" CREATED="2012-06-25T19:32:11.619Z" MIMETYPE="text/xml" SIZE="1240">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.10" LABEL="Item Relationships" CREATED="2012-06-25T19:32:11.982Z" MIMETYPE="text/xml" SIZE="1343">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.11" LABEL="Item Relationships" CREATED="2012-06-28T15:21:01.801Z" MIMETYPE="text/xml" SIZE="1189">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.12" LABEL="Item Relationships" CREATED="2012-06-28T15:21:02.081Z" MIMETYPE="text/xml" SIZE="1015">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.13" LABEL="Item Relationships" CREATED="2012-06-28T15:21:02.421Z" MIMETYPE="text/xml" SIZE="1169">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.14" LABEL="Item Relationships" CREATED="2012-06-28T15:21:02.691Z" MIMETYPE="text/xml" SIZE="1343">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.15" LABEL="Item Relationships" CREATED="2012-06-28T15:21:03.431Z" MIMETYPE="text/xml" SIZE="1240">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-25T19:31:58.364Z</workflowDate>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.16" LABEL="Item Relationships" CREATED="2012-06-28T15:21:03.841Z" MIMETYPE="text/xml" SIZE="1065">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.17" LABEL="Item Relationships" CREATED="2012-06-28T15:21:04.171Z" MIMETYPE="text/xml" SIZE="1240">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis"></hasModel>
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL"></isPartOf>
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc"></isMemberOf>
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269"></isMemberOfCollection>
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-28T15:21:00.990Z</workflowDate>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+		<foxml:datastreamVersion ID="RELS-EXT.18" LABEL="Item Relationships" CREATED="2012-06-28T15:21:04.451Z" MIMETYPE="text/xml" SIZE="1288">
+			<foxml:xmlContent>
+				<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+					<rdf:Description rdf:about="info:fedora/uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a">
+						<hasModel xmlns="info:fedora/fedora-system:def/model#" rdf:resource="info:fedora/ir:Thesis" />
+						<formName xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">thesis</formName>
+						<itemID xmlns="http://www.openarchives.org/OAI/2.0/">oai:era.library.ualberta.ca:uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</itemID>
+						<isPartOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/ir:MANUAL_APPROVAL" />
+						<submitterId xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">admin</submitterId>
+						<isMemberOf xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:39331f1f-769d-4c2a-a103-416c285d01fc" />
+						<isMemberOfCollection xmlns="info:fedora/fedora-system:def/relations-external#" rdf:resource="info:fedora/uuid:7af76c0f-61d6-4ebc-a2aa-79c125480269" />
+						<workflowDate xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-28T15:21:00.990Z</workflowDate>
+						<workflowState xmlns="http://era.library.ualberta.ca/schema/definitions.xsd#">Archive</workflowState>
+					</rdf:Description>
+
+				</rdf:RDF>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" CREATED="2012-03-13T16:13:08.655Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="490">
+			<foxml:xmlContent>
+				<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+					<dc:title>Who&apos;s on stage? Performative disclosure in Hannah Arendt&apos;s account of political action</dc:title>
+					<dc:identifier>uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a</dc:identifier>
+				</oai_dc:dc>
+			</foxml:xmlContent>
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="THUMBNAIL" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="THUMBNAIL.0" LABEL="Item Thumbnail" CREATED="2012-03-20T17:22:46.891Z" MIMETYPE="image/gif">
+			<foxml:contentLocation TYPE="INTERNAL_ID" REF="uuid:915a6e9a-405c-4610-b361-49a2cfd9e10a+THUMBNAIL+THUMBNAIL.0" />
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+	<foxml:datastream ID="LICENSE" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+		<foxml:datastreamVersion ID="LICENSE.0" LABEL="University of Alberta Libraries" CREATED="2012-06-28T15:21:03.160Z" MIMETYPE="text/plain">
+			<foxml:contentLocation TYPE="URL" REF="http://local.fedora.server/fedora/get/era-license:UALibraries/LICENSE" />
+		</foxml:datastreamVersion>
+	</foxml:datastream>
+</foxml:digitalObject>
