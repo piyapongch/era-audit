@@ -22,7 +22,7 @@ func main() {
 	defer writer.Flush()
 
 	// open foxml
-	f, err1 := os.Open("../sample_data/foxml_wolves.xml")
+	f, err1 := os.Open("../sample_data/foxml_fedora_md5.xml")
 	doc, err1 := xmlquery.Parse(f)
 	if err1 != nil {
 		panic(err1)
@@ -44,9 +44,15 @@ func main() {
 	csv = append(csv, "# LICENSE datastreams")
 	csv = append(csv, "DCQ IDs")
 	csv = append(csv, "DCQ MD5s")
+	csv = append(csv, "DCQ version changes")
 	csv = append(csv, "DS IDs")
 	csv = append(csv, "DS MD5s")
+	csv = append(csv, "DS MIME Type")
+	csv = append(csv, "DS version changes")
 	csv = append(csv, "LICENSE IDs")
+	csv = append(csv, "LICENSE version changes")
+
+	// /foxml:digitalObject/foxml:datastream/foxml:datastreamVersion/foxml:xmlContent/audit:auditTrail/audit:record/audit:componentID/[starts-with(text(), 'DS')]
 
 	// write header to csv file
 	err = writer.Write(csv)
@@ -193,6 +199,21 @@ func main() {
 	fmt.Printf("DCQ MD5s: %s\n", val)
 	csv = append(csv, val)
 
+	// DCQ version changes
+	val = ""
+	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion/foxml:xmlContent/audit:auditTrail/audit:record/audit:componentID[starts-with(text(),'DCQ')]") {
+		if n != nil {
+			if txt := n.Parent.SelectElement("audit:justification").InnerText(); txt != "" {
+				if i > 0 {
+					val = val + "|"
+				}
+				val += txt
+			}
+		}
+	}
+	fmt.Printf("DCQ version changes: %s\n", val)
+	csv = append(csv, val)
+
 	// DS IDs
 	val = ""
 	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion[starts-with(@ID,'DS')]/@ID") {
@@ -226,6 +247,36 @@ func main() {
 	fmt.Printf("DS MD5s: %s\n", val)
 	csv = append(csv, val)
 
+	// DS MimeType
+	val = ""
+	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion[starts-with(@ID,'DS')]/@MIMETYPE") {
+		if n != nil {
+			if txt := n.InnerText(); txt != "" {
+				if i > 0 {
+					val = val + "|"
+				}
+				val += txt
+			}
+		}
+	}
+	fmt.Printf("DS MIME Types: %s\n", val)
+	csv = append(csv, val)
+
+	// DS version changes
+	val = ""
+	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion/foxml:xmlContent/audit:auditTrail/audit:record/audit:componentID[starts-with(text(),'DS')]") {
+		if n != nil {
+			if txt := n.Parent.SelectElement("audit:justification").InnerText(); txt != "" {
+				if i > 0 {
+					val = val + "|"
+				}
+				val += txt
+			}
+		}
+	}
+	fmt.Printf("DS version changes: %s\n", val)
+	csv = append(csv, val)
+
 	// LICENSE IDs
 	val = ""
 	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion[starts-with(@ID,'LICENSE')]/@ID") {
@@ -237,6 +288,21 @@ func main() {
 		}
 	}
 	fmt.Printf("LICENSE IDs: %s\n", val)
+	csv = append(csv, val)
+
+	// LICENSE version changes
+	val = ""
+	for i, n := range xmlquery.Find(doc, "/foxml:digitalObject/foxml:datastream/foxml:datastreamVersion/foxml:xmlContent/audit:auditTrail/audit:record/audit:componentID[starts-with(text(),'LICENSE')]") {
+		if n != nil {
+			if txt := n.Parent.SelectElement("audit:justification").InnerText(); txt != "" {
+				if i > 0 {
+					val = val + "|"
+				}
+				val += txt
+			}
+		}
+	}
+	fmt.Printf("LICENSE version changes: %s\n", val)
 	csv = append(csv, val)
 
 	// write to csv file
