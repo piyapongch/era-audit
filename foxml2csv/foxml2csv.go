@@ -1,4 +1,4 @@
-package main
+package foxml2csv
 
 import (
 	"encoding/csv"
@@ -11,52 +11,19 @@ import (
 	"github.com/antchfx/xpath"
 )
 
-func main() {
-
-	// create output file
-	file, err := os.Create("results.csv")
-	checkError("Cannot create file", err)
-	defer file.Close()
-
-	writer := csv.NewWriter(file)
-	defer writer.Flush()
+func Run(input string, writer *csv.Writer) {
 
 	// open foxml
-	f, err1 := os.Open("../sample_data/foxml_fedora_md5.xml")
+	f, err1 := os.Open(input)
 	doc, err1 := xmlquery.Parse(f)
 	if err1 != nil {
-		panic(err1)
+		fmt.Printf("Error: %s, %s\n", input, err1)
+		return
 	}
 
-	// declare vars
-	var csv []string
+	// declare variable
 	var val string
-
-	// create csv header
-	csv = append(csv, "PID")
-	csv = append(csv, "UUID")
-	csv = append(csv, "handle")
-	csv = append(csv, "title")
-	csv = append(csv, "deposit date")
-	csv = append(csv, "# DCQ datastreams")
-	csv = append(csv, "# DC datastreams")
-	csv = append(csv, "# DS datastreams")
-	csv = append(csv, "# LICENSE datastreams")
-	csv = append(csv, "DCQ IDs")
-	csv = append(csv, "DCQ MD5s")
-	csv = append(csv, "DCQ version changes")
-	csv = append(csv, "DS IDs")
-	csv = append(csv, "DS MD5s")
-	csv = append(csv, "DS MIME Type")
-	csv = append(csv, "DS version changes")
-	csv = append(csv, "LICENSE IDs")
-	csv = append(csv, "LICENSE version changes")
-
-	// /foxml:digitalObject/foxml:datastream/foxml:datastreamVersion/foxml:xmlContent/audit:auditTrail/audit:record/audit:componentID/[starts-with(text(), 'DS')]
-
-	// write header to csv file
-	err = writer.Write(csv)
-	checkError("Could not write to file", err)
+	var csv []string
 
 	// clear array
 	csv = nil
@@ -70,7 +37,6 @@ func main() {
 	csv = append(csv, val)
 
 	// UUID
-	fmt.Printf("UUID: %s\n", val)
 	csv = append(csv, val)
 
 	// handle
@@ -91,7 +57,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("handle: %s\n", val)
 	csv = append(csv, val)
 
 	// titles
@@ -106,7 +71,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("titles: %s\n", val)
 	csv = append(csv, val)
 
 	// deposit date
@@ -119,7 +83,6 @@ func main() {
 	} else {
 		val = n.InnerText()
 	}
-	fmt.Printf("deposit date: %s\n", val)
 	csv = append(csv, val)
 
 	// # DCQ datastreams
@@ -130,7 +93,6 @@ func main() {
 		dcq := expr.Evaluate(xmlquery.CreateXPathNavigator(doc)).(float64)
 		val = fmt.Sprintf("%.0f", dcq)
 	}
-	fmt.Printf("# DCQ datasreams: %s\n", val)
 	csv = append(csv, val)
 
 	// # DC datastreams
@@ -141,7 +103,6 @@ func main() {
 		dc := expr.Evaluate(xmlquery.CreateXPathNavigator(doc)).(float64)
 		val = fmt.Sprintf("%.0f", dc)
 	}
-	fmt.Printf("# DC datasreams: %s\n", val)
 	csv = append(csv, val)
 
 	// # DS datastreams
@@ -152,7 +113,6 @@ func main() {
 		ds := expr.Evaluate(xmlquery.CreateXPathNavigator(doc)).(float64)
 		val = fmt.Sprintf("%.0f", ds)
 	}
-	fmt.Printf("# DS datasreams: %s\n", val)
 	csv = append(csv, val)
 
 	// # LICENSE datastreams
@@ -163,7 +123,6 @@ func main() {
 		ds := expr.Evaluate(xmlquery.CreateXPathNavigator(doc)).(float64)
 		val = fmt.Sprintf("%.0f", ds)
 	}
-	fmt.Printf("# LICENSE datastreams: %s\n", val)
 	csv = append(csv, val)
 
 	// DCQ IDs
@@ -178,7 +137,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("DCQ IDs: %s\n", val)
 	csv = append(csv, val)
 
 	// DCQ MD5s
@@ -196,7 +154,6 @@ func main() {
 			val += a
 		}
 	}
-	fmt.Printf("DCQ MD5s: %s\n", val)
 	csv = append(csv, val)
 
 	// DCQ version changes
@@ -211,7 +168,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("DCQ version changes: %s\n", val)
 	csv = append(csv, val)
 
 	// DS IDs
@@ -226,7 +182,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("DS IDs: %s\n", val)
 	csv = append(csv, val)
 
 	// DS MD5s
@@ -244,7 +199,6 @@ func main() {
 			val += a
 		}
 	}
-	fmt.Printf("DS MD5s: %s\n", val)
 	csv = append(csv, val)
 
 	// DS MimeType
@@ -259,7 +213,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("DS MIME Types: %s\n", val)
 	csv = append(csv, val)
 
 	// DS version changes
@@ -274,7 +227,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("DS version changes: %s\n", val)
 	csv = append(csv, val)
 
 	// LICENSE IDs
@@ -287,7 +239,6 @@ func main() {
 			val += n.InnerText()
 		}
 	}
-	fmt.Printf("LICENSE IDs: %s\n", val)
 	csv = append(csv, val)
 
 	// LICENSE version changes
@@ -302,12 +253,11 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("LICENSE version changes: %s\n", val)
 	csv = append(csv, val)
 
 	// write to csv file
-	err = writer.Write(csv)
-	checkError("Could not write to file", err)
+	err1 = writer.Write(csv)
+	checkError("Could not write to file", err1)
 }
 
 func checkError(message string, err error) {
